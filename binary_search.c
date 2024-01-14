@@ -12,7 +12,7 @@ int binary_search(int * arr, size_t len, int item) {
         else // too low
             min = mid + 1;
     }
-    return 0;
+    return -1;
 }
 
 int main() {
